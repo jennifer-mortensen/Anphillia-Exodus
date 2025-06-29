@@ -1,0 +1,17 @@
+//::///////////////////////////////////////////////
+//:: FileName sc_003
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Script Wizard
+//:: Created On: 4/29/2008 12:12:29 PM
+//:://////////////////////////////////////////////
+int StartingConditional()
+{
+    int intel = GetAbilityScore(GetPCSpeaker(), ABILITY_INTELLIGENCE);
+
+    if(intel < 38 && intel > 10){
+        return TRUE;
+    }
+
+    return FALSE;
+}

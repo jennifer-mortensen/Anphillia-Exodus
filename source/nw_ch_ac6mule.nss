@@ -1,0 +1,20 @@
+//::///////////////////////////////////////////////
+//:: Associate: On Damaged
+//:: NW_CH_AC6
+//:: Copyright (c) 2001 Bioware Corp.
+//:://////////////////////////////////////////////
+/*
+    If already fighting then ignore, else determine
+    combat round
+*/
+//:://////////////////////////////////////////////
+//:: Created By: Preston Watamaniuk
+//:: Created On: Nov 19, 2001
+//:://////////////////////////////////////////////
+
+#include "NW_I0_GENERIC"
+
+void main()
+{
+   UseStealthMode();
+}

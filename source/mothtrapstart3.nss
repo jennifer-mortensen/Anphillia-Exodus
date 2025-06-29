@@ -1,0 +1,9 @@
+int StartingConditional()
+{
+    object oPC = GetPCSpeaker();
+    if(GetSkillRank(SKILL_CRAFT_TRAP,oPC)<19)
+    {
+    return FALSE;
+    }
+    return TRUE;
+}

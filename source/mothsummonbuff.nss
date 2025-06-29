@@ -1,0 +1,25 @@
+#include "nw_i0_generic"
+void main()
+{
+ActionCastSpellAtObject(SPELL_LESSER_MIND_BLANK,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_DEATH_WARD,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_MAGE_ARMOR,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_MIND_BLANK,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_NEGATIVE_ENERGY_PROTECTION,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_ENDURANCE,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_UNDEATHS_ETERNAL_FOE,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_BLADE_THIRST,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_TRUE_SEEING,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_PRAYER,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_AID,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_SHIELD_OF_FAITH,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_GREATER_ENDURANCE,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_IMPROVED_INVISIBILITY,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_STONESKIN,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_DISPLACEMENT,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_KEEN_EDGE,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_DEAFENING_CLANG,GetMaster(OBJECT_SELF),FALSE);
+ActionCastSpellAtObject(SPELL_MASS_CAMOFLAGE,GetMaster(OBJECT_SELF),FALSE);
+PlayVoiceChat(VOICE_CHAT_YES);
+}
+

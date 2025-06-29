@@ -1,0 +1,16 @@
+//::///////////////////////////////////////////////
+//:: FileName sc_005
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Script Wizard
+//:: Created On: 4/30/2008 10:47:47 PM
+//:://////////////////////////////////////////////
+int StartingConditional()
+{
+
+    // Make sure the player has the required skills
+    if(GetSkillRank(SKILL_DISABLE_TRAP, GetPCSpeaker()) + d20() >= 40)
+        return FALSE;
+
+    return TRUE;
+}

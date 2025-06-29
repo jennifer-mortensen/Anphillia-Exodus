@@ -1,0 +1,73 @@
+void main()
+{
+   object oMod = GetModule();
+   int nTimer = GetLocalInt(oMod,"MothPuzzleMaelstrom1");
+   if(nTimer==TRUE)return;
+   object oPC = GetEnteringObject();
+   if(!GetIsPC(oPC))return;
+   if(nTimer == FALSE)
+   {
+     object oDoor = GetObjectByTag("mothragnardoortreasure");
+     object oDoor2 = GetObjectByTag("mothragnarbossdoor");
+     object oDoor3 = GetObjectByTag("mothragnardoorfinal");
+     AssignCommand(oDoor,ActionCloseDoor(oDoor));
+     AssignCommand(oDoor2,ActionCloseDoor(oDoor2));
+     AssignCommand(oDoor3,ActionCloseDoor(oDoor3));
+     SetLocked(oDoor2,TRUE);
+     SetLocked(oDoor3,TRUE);
+     SetLocked(oDoor,TRUE);
+     DeleteLocalInt(oMod,"MothPuzzleMaelstrom3");
+     SetLocalInt(oMod,"MothPuzzleMaelstrom1",TRUE);
+     object oWayPoint1 = GetWaypointByTag("mothblockboulder");
+     location lWaypoint1 = GetLocation(oWayPoint1);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"mothblockboulder",lWaypoint1);
+     object oWayPoint2 = GetWaypointByTag("mothwaterfall1");
+     location lWaypoint2 = GetLocation(oWayPoint2);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint2);
+     object oWayPoint3 = GetWaypointByTag("mothwaterfall2");
+     location lWaypoint3 = GetLocation(oWayPoint3);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint3);
+     object oWayPoint4 = GetWaypointByTag("mothwaterfall3");
+     location lWaypoint4 = GetLocation(oWayPoint4);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint4);
+     object oWayPoint5 = GetWaypointByTag("mothwaterfall4");
+     location lWaypoint5 = GetLocation(oWayPoint5);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint5);
+     object oWayPoint6 = GetWaypointByTag("mothwaterfall5");
+     location lWaypoint6 = GetLocation(oWayPoint6);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint6);
+     object oWayPoint7 = GetWaypointByTag("mothwaterfall6");
+     location lWaypoint7 = GetLocation(oWayPoint7);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint7);
+     object oWayPoint8 = GetWaypointByTag("mothwaterfall7");
+     location lWaypoint8 = GetLocation(oWayPoint8);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint8);
+     object oWayPoint9 = GetWaypointByTag("mothwaterfall8");
+     location lWaypoint9 = GetLocation(oWayPoint9);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint9);
+     object oWayPoint10 = GetWaypointByTag("mothwaterfall9");
+     location lWaypoint10 = GetLocation(oWayPoint10);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint10);
+     object oWayPoint11 = GetWaypointByTag("mothwaterfall10");
+     location lWaypoint11 = GetLocation(oWayPoint11);
+     CreateObject(OBJECT_TYPE_PLACEABLE,"zep_waterfall001",lWaypoint11);
+     object oWayPointBlock1 = GetWaypointByTag("mothinviswall1");
+     location lLocationBlock1 = GetLocation(oWayPointBlock1);
+     object oBlocker1 = CreateObject(OBJECT_TYPE_PLACEABLE,"mothinviswall",lLocationBlock1);
+     object oWayPointBlock2 = GetWaypointByTag("mothinviswall2");
+     location lLocationBlock2 = GetLocation(oWayPointBlock2);
+     object oBlocker2 = CreateObject(OBJECT_TYPE_PLACEABLE,"mothinviswall2",lLocationBlock2);
+     object oWayPointBlock3 = GetWaypointByTag("mothinviswall3");
+     location lLocationBlock3 = GetLocation(oWayPointBlock3);
+     object oBlocker3 = CreateObject(OBJECT_TYPE_PLACEABLE,"mothinviswall3",lLocationBlock3);
+     object oWayPointBlock4 = GetWaypointByTag("mothinviswall4");
+     location lLocationBlock4 = GetLocation(oWayPointBlock4);
+     object oBlocker4 = CreateObject(OBJECT_TYPE_PLACEABLE,"mothinviswall4",lLocationBlock4);
+     object oWayPointBlock5 = GetWaypointByTag("mothinviswall5");
+     location lLocationBlock5 = GetLocation(oWayPointBlock5);
+     object oBlocker5 = CreateObject(OBJECT_TYPE_PLACEABLE,"mothinviswall5",lLocationBlock5);
+     object oWayPointBlock6 = GetWaypointByTag("mothinviswall6");
+     location lLocationBlock6 = GetLocation(oWayPointBlock6);
+     object oBlocker6 = CreateObject(OBJECT_TYPE_PLACEABLE,"mothinviswall6",lLocationBlock6);
+   }
+}

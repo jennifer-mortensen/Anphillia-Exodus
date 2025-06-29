@@ -1,0 +1,18 @@
+//::///////////////////////////////////////////////
+//:: FileName distrap_chk_hard
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Script Wizard
+//:: Created On: 4/30/2008 10:43:25 PM
+//:://////////////////////////////////////////////
+#include "nw_i0_tool"
+
+int StartingConditional()
+{
+
+	// Perform skill checks
+	if(!(AutoDC(DC_HARD, SKILL_DISABLE_TRAP, GetPCSpeaker())))
+		return FALSE;
+
+	return TRUE;
+}

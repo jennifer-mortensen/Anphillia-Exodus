@@ -1,0 +1,21 @@
+2DA V2.0                                                                                                                                                                                           
+                                                                                                                                                                                                     
+      Label               Name        First_Save   Subs_Save   Incu_Hours   Dice_1   Dam_1   Type_1   Dice_2   Dam_2   Type_2   Dice_3   Dam_3   Type_3   Type    End_Incu_Script   24_Hour_Script   
+                                                                                                                                                                                                      
+0     Blinding_Sickness   4689        21           21          1            4        1       0        ****     ****    ****     ****     ****    ****     EXTRA   ****              NW_S3_BlindSick
+1     Cackle_Fever        4690        21           21          1            6        1       4        ****     ****    ****     ****     ****    ****     EXTRA   ****              ****             
+2     Demon_Fever         4691        23           23          1            6        1       2        ****     ****    ****     ****     ****    ****     SUPER   ****              Nw_S3_DemonFev       
+3     Devil_Chills        4692        19           19          1            4        1       0        ****     ****    ****     ****     ****    ****     SUPER   ****              ****             
+4     Filth_Fever         4693        17           17          1            3        1       3        3        1       2        ****     ****    ****     EXTRA   ****              ****             
+5     Mindfire            4694        17           17          1            4        1       3        ****     ****    ****     ****     ****    ****     EXTRA   ****              ****             
+6     Mummy_Rot           4695        25           25          1            6        1       2        ****     ****    ****     ****     ****    ****     SUPER   ****              ****             
+7     Red_Ache            4696        20           20          1            6        1       0        ****     ****    ****     ****     ****    ****     EXTRA   ****              ****             
+8     Shakes              4697        18           18          1            6        1       0        ****     ****    ****     ****     ****    ****     EXTRA   ****              ****             
+9     Slimy_Doom          4698        19           19          1            4        1       1        ****     ****    ****     ****     ****    ****     EXTRA   ****              ****             
+10    Red_Slaad_Eggs      4699        22           22          1            6        2       1        6        2       0        6        2       2        EXTRA   NW_S3_SlaadEgg    ****             
+11    Ghoul_Rot           4700        23           23          1            6        1       2        6        1       0        ****     ****    ****     SUPER   ****              ****             
+12    Zombie_Creep        4701        20           20          1            4        1       2        4        1       1        ****     ****    ****     SUPER   ****              ****             
+13    Dread_Blisters      4702        18           18          1            4        1       2        4        1       5        ****     ****    ****     SUPER   ****              ****             
+14    Burrow_Maggots      4703        22           22          1            4        1       3        4        1       4        ****     ****    ****     SUPER   ****              ****             
+15    Soldier_Shakes      4704        30           30          1            ****     ****    ****     ****     ****    ****     ****     ****    ****     ****    ****              Nw_S3_SoldShake      
+16    Vermin_Madness      4705        18           18          1            1        1       3        1        1       4        1        1       5        EXTRA   ****              ****             

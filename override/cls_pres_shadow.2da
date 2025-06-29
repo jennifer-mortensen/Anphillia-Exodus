@@ -1,0 +1,16 @@
+2DA V2.0                                                            
+                                                                    
+           LABEL             ReqType   ReqParam1        ReqParam2   
+0          HideSkill         SKILL     5                10          
+1          MoveSilentSkill   SKILL     8                8           
+2          Tumble            SKILL     21               5           
+3          dodge             FEAT      10               ****        
+4          mobility          FEAT      26               ****        
+5          ImprovedEvasion   FEAT      212              ****   
+6          ScriptVar         VAR       X1_AllowShadow   0           
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    

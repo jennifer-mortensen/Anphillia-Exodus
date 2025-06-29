@@ -1,0 +1,40 @@
+void main()
+{
+object oPC = GetEnteringObject();
+object oMod = GetModule();
+if (!GetIsPC(oPC)) return;
+int DoOnce = GetLocalInt(OBJECT_SELF, GetTag(OBJECT_SELF));
+if (DoOnce==TRUE) return;
+SetLocalInt(OBJECT_SELF, GetTag(OBJECT_SELF), TRUE);
+int nInt;
+nInt = GetLocalInt(oMod, "mothlockdown");
+nInt = 1;
+SetLocalInt(oMod, "mothlockdown", nInt);
+object oTarget = GetObjectByTag("mothcullis12");
+object oTarget2 = GetObjectByTag("mothcullis13");
+object oTarget3 = GetObjectByTag("mothcullis14");
+object oTarget4 = GetObjectByTag("mothlockdown1");
+object oTarget5 = GetObjectByTag("mothlockdown1a");
+object oTarget6 = GetObjectByTag("mothlockdown1b");
+AssignCommand(oTarget, ActionCloseDoor(oTarget));
+AssignCommand(oTarget2, ActionCloseDoor(oTarget2));
+AssignCommand(oTarget3, ActionCloseDoor(oTarget3));
+DelayCommand(0.1, DestroyObject(OBJECT_SELF));
+DelayCommand(0.1, DestroyObject(oTarget4));
+DelayCommand(0.2, DestroyObject(oTarget5));
+DelayCommand(0.3, DestroyObject(oTarget6));
+SetLocked(oTarget, TRUE);
+SetLocked(oTarget2, TRUE);
+SetLocked(oTarget3, TRUE);
+object oSpawn;
+location lTarget;
+oTarget = oPC;
+lTarget = GetLocation(oTarget);
+oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "mothenforcer", lTarget);
+oTarget = oSpawn;
+nInt = GetObjectType(oTarget);
+if (nInt != OBJECT_TYPE_WAYPOINT) DelayCommand(0.5, ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_SCREEN_SHAKE), oTarget));
+else DelayCommand(0.5, ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_SCREEN_SHAKE), GetLocation(oTarget)));
+string sPC = GetName(oPC);
+FloatingTextStringOnCreature("<cýõæ>"+sPC+" has accidently set this room into lockdown!</c>", oPC);
+}

@@ -1,0 +1,14 @@
+//::///////////////////////////////////////////////
+//:: Name Editor: Set story: 1
+//:: FileName j_news_ed_story1
+//:://////////////////////////////////////////////
+// Sets variable to 0, story 1
+// Sets the now-story variables to the variables under 1.
+//:://////////////////////////////////////////////
+
+#include "j_news_ed_inc"
+
+void main()
+{
+    SetStoryChoice(1);
+}
