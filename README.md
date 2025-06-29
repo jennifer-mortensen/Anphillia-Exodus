@@ -6,4 +6,6 @@ Note that this module uses the CEP2 expansion pack (link here: https://neverwint
 
 Beyond that, all you need to get Anphillia Exodus running is the module (included in the modules folder) and the .2das intended for the override folder. The "source" folder is included only for convenient viewership online.
 
-- Jennifer Mortensen (aka J. Persinne / Peppermint)
+Sincerely,
+
+Jennifer (aka J. Persinne / Peppermint)
