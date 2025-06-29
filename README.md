@@ -5,3 +5,6 @@ Initially, I considered this module proprietary, but given that Anphillia Exodus
 Note that this module uses the CEP2 expansion pack (link here: https://neverwintervault.org/cep). It also uses .dlls from the original Windows distribution of NwNX. I have not included those here since they are not compatible with the Enhanced Edition of Neverwinter Nights; I would instead recommend porting the project to the newer Linux branch (information here: https://nwnxee.github.io/unified/).
 
 Beyond that, all you need to get the module running is the module (included in the modules folder) and the .2das intended for the override folder. I have included the source folder only to expose the source code for viewership online.
+
+Sincerely,
+Jennifer Mortensen (aka J. Persinne / Peppermint)
