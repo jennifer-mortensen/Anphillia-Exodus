@@ -7,4 +7,5 @@ Note that this module uses the CEP2 expansion pack (link here: https://neverwint
 Beyond that, all you need to get the module running is the module (included in the modules folder) and the .2das intended for the override folder. I have included the source folder only to expose the source code for viewership online.
 
 Sincerely,
+
 Jennifer Mortensen (aka J. Persinne / Peppermint)
